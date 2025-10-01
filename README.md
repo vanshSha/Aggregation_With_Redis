@@ -1,7 +1,9 @@
 -- Aggregation_Stream_With_Redis
 
  * About 
-    - In this Spring Boot project . I am doing aggregating some stream then sent into redis.
+    - This Spring Boot project aggregates Kafka streams and pushes the processed records into Redis
+    - It demonstrates real-time streaming data processing with Kafka Streams and Redis as a fast data store.
+
  
   * Tech Stack
    
@@ -22,8 +24,8 @@
  
   * How to run
    
-    -  ./mvnw spring-boot:run. -> Spring Boot
+    -  ./mvnw spring-boot:run. # Start Spring Boot application
 
-    -  docker compose up -d -> Docker 
+    -  docker compose up -d    # Start Docker services
 
    
